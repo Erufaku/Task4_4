@@ -19,4 +19,4 @@ Wigth = int(x+w)
 Height = int(y+h)
 if(int(x+w) > W): Wigth = W
 if(int(y+h) > H): Height = H
-om = imwrite(outputfile,im[x:Wigth,y:Height,0])
+om = imwrite(outputfile,im[x:Wigth,y:Height])
